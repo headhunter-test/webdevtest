@@ -1,0 +1,8 @@
+<h3>Редактирование модели автомобиля</h3>
+<form name="add-model-form-controller">
+    <input name="name" class="form-control" ng-model="selected_model.name" />
+    <input name="name" class="form-control" ng-model="selected_model.id" type="hidden" />
+    <br />
+    <input type="button" class="btn btn-primary" value="Сохранить изменения" ng-click="edit()"/>
+    <input type="button" class="btn btn-danger" value="Удалить модель" ng-click="delete()"/>
+</form>
